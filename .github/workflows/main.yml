@@ -6,7 +6,7 @@ on:
 
 jobs:
   frequent-task:
-    runs-on:  cawe-linux-x64-general-large
+    runs-on:  ubuntu-latest
 
     steps:
       - name: Checkout repository
