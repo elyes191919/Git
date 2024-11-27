@@ -2,11 +2,11 @@ name: Frequent Workflow
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Runs every 5 minutes
+    - cron: '*/10 * * * *'
 
 jobs:
   frequent-task:
-    runs-on:  ubuntu-latest
+    runs-on:  cawe-linux-x64-general-large
 
     steps:
       - name: Checkout repository
