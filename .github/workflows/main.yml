@@ -1,20 +1,20 @@
-name: Frequent Workflow
+# name: Frequent Workflow
 
-on:
-  schedule:
-    - cron: '*/1 * * * *' # Runs every 5 minutes
-  workflow_dispatch: 
+# on:
+#   schedule:
+#     - cron: '*/1 * * * *' # Runs every 5 minutes
+#   workflow_dispatch: 
 
-jobs:
-  frequent-task:
-    runs-on:  cawe-linux-x64-general-large
+# jobs:
+#   frequent-task:
+#     runs-on:  cawe-linux-x64-general-large
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
 
-      - name: Execute script
-        run: |
-          echo "Running task every 5 minutes..."
-          # Add your custom commands or scripts here
-          echo "Task execution complete."
+#       - name: Execute script
+#         run: |
+#           echo "Running task every 5 minutes..."
+#           # Add your custom commands or scripts here
+#           echo "Task execution complete."
